@@ -1,0 +1,75 @@
+<i class="far fa-tags"></i>  = tag
+<i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin-in"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-whatsapp"></i>
+<i class="fad fa-download"></i>
+<i class="fal fa-chevron-circle-left"></i>
+<i class="fal fa-chevron-circle-right"></i>
+<i class="far fa-chevron-down"></i>
+<td data-label="" scope="row" class="first_one_05">Transparency</td>
+
+
+<div class="ct-section-inner-wrap">
+    <h2 id="headline-69-9" class="ct-headline separator-style">Why is Aiosell unique &amp; different from other Hotel Systems?<br></h2>
+    <div id="code_block-73-9" class="ct-code-block"><table class="table_data table_dataL product_info">
+	<tbody>
+		
+		<tr>
+			<th scope="col"> </th>
+			<th class="card_header card_headerL" scope="col"><img src="https://5cqdo31mef92dj3mn196maek-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Aiosell-Logo-white-revised.png" style="width: 150px;" class="lazyloaded" data-ll-status="loaded"><noscript><img src="https://5cqdo31mef92dj3mn196maek-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Aiosell-Logo-white-revised.png" style="width: 150px;"></noscript></th>
+			<th class="card_header card_headerL" scope="col">Other Systems</th>
+		</tr>
+		<tr class="first_one">
+			<td data-label="" scope="row" class="first_one_01">Automation</td>
+			<td data-label="" class="logo_back">System designed for automation with minimum manual efforts</td>
+			<td data-label="Other Systems">System designed for manual usage and constant monitoring</td>
+		</tr>
+		<tr class="first_one">
+			<td data-label="" scope="row" class="first_one_02">All in One System</td>
+			<td data-label="" class="logo_back">Includes PMS, RMS, Channel Manager, Reputation Mgmt, Rate Shopper, Analytics, Reporting, Website, Booking Engine </td>
+			<td data-label="Other Systems">Each functionality provided by separate system</td>
+		</tr>
+		<tr class="first_one">
+			<td data-label="" scope="row" class="first_one_03">Rate Management</td>
+			<td data-label="" class="logo_back">Dynamic Pricing using real-time factors so rates can change anytime
+				</td><td data-label="Other Systems">Rates change few times a day based on manual intervention</td>
+			</tr>
+			<tr class="first_one">
+				<td data-label="" scope="row" class="first_one_04">Results</td>
+				<td data-label="" class="logo_back">System can directly increase business by 30%</td>
+				<td data-label="Other Systems">System does not directly increase business</td>
+			</tr>
+			<tr class="first_one">
+				<td data-label="" scope="row" class="first_one_05">Transparency</td>
+				<td data-label="" class="logo_back">Automation &amp; AI based on rules &amp; logic that is easily configurable</td>
+				<td data-label="Other Systems">Based on opaque data modelling that is hard to understand &amp; change</td>
+			</tr>
+			<tr class="first_one">
+				<td data-label="" scope="row" class="first_one_06">Integration</td>
+				<td data-label="" class="logo_back">Can integrate with existing PMS or Channel Manager to ease adoption</td>
+				<td data-label="Other Systems">Systems do not communicate with each other</td>
+			</tr>
+			<tr class="first_one">
+				<td data-label="" scope="row" class="first_one_07">Analytics &amp; Reporting</td>
+				<td data-label="" class="logo_back">Advanced Analytics &amp; Reporting combined into one system</td>
+				<td data-label="Other Systems">Analytics &amp; Reporting done by separate systems </td>
+			</tr>
+			<tr class="first_one">
+				<td data-label="" scope="row" class="first_one_08">Group Hotels</td>
+				<td data-label="" class="logo_back">Multi-property Management, Reporting &amp; CRS part of core design</td>
+				<td data-label="Other Systems">Multi-property management is painful &amp; clunky</td>
+			</tr>
+			<tr class="first_one">
+				<td data-label="" scope="row" class="first_one_09">OTA Management</td>
+				<td data-label="" class="logo_back">Unique features like OTA Content, Commissions, Vouchers &amp; Rate Parity</td>
+				<td data-label="Other Systems">OTA Management done manually and inefficiently</td>
+			</tr>
+			<tr class="first_one">
+				<td data-label="" scope="row" class="first_one_10">Price</td>
+				<td data-label="" class="logo_back">Affordable &amp; flexible</td>
+				<td data-label="Other Systems">Expensive &amp; inflexible</td>
+			</tr>
+		</tbody>
+	</table></div></div>

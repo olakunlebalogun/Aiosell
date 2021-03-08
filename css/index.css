@@ -1,0 +1,328 @@
+/* General Body of the Page */
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #8e8e8e;
+    font-weight: 400;
+  }
+/* General body */
+
+/* Navigation Bar Style */
+
+.navbar-brand img{
+    height: 4rem;
+    margin-top: .4rem;
+  }
+  .navbar {
+    font-size: .9rem;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  .nav-item{
+    padding: 0;
+    margin : .4rem;
+
+  }
+  .nav-link{
+    color: white!important;
+  }
+  .nav-link.active,
+  .nav-link:hover{
+    color: white!important;
+  }
+  /* End of Nav-Bar */
+
+
+/* General Styling */
+
+  .btn-danger:hover {
+  background-color: white!important;
+  /* background: white; */
+  color: red;
+  }
+
+  .border-danger {
+    border-top: .2rem solid red!important;
+  }
+
+  div{
+    border-top-width: .5rem;
+  }
+
+  .border-top{
+    height: 1rem;
+    border-top: 2px solid red;
+    top: 10%;
+    width: 5px
+  }
+  h2, p, h3{
+    text-align: center;
+    color: #d80e15;
+  }
+
+  /* End of General Styling */
+
+  /* Second section */
+#p1 {
+  color: #8e8e8e;
+  text-align: left;
+}
+h4{
+  color: black;
+}
+ul{
+  list-style-image: url("images/y.png");
+}
+
+  /* End Second section */
+
+
+
+  /* First Table Styling */
+
+  .content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    table-layout: fixed;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, .25)
+  }
+  .content-table thead tr{
+    background-color: #d80e15;
+    color: white;
+    text-align: center!important;
+    padding: 5px 5px;
+    
+  }
+  .content-table tbody tr{
+    border-left: 1rem solid white; 
+    border-right: 1rem solid white;
+    column-width: 400px;
+  }
+
+  .content-table tbody tr:nth-of-type(odd){
+    background-color: #fafafa;
+  }
+  .td{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+  }
+  .tr {
+    border: none;
+    border-left: 2px solid white; 
+    border-right: 2px solid white;
+  }
+
+  /* End of First Table Styling  */
+  #p3, #p4 {
+    font-size: 24px;
+    color: white;
+    text-align: left;
+  }
+  
+  #button1, #button2 {
+    border-radius: 20px;
+    
+  }
+  .card-header {
+    text-align: left;
+    /* letter-spacing: 2px;
+    word-spacing: 4px; */
+  }
+  .para{
+    text-align: left;
+  }
+  #redrow{
+    background-color: #d80e15;
+  }
+  td .align-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .num{
+    text-align: center;
+  }
+
+
+
+
+
+  
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.2s ease;
+}
+
+
+
+
+/*
+    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+    code customized by Azmind.com
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Show 4th slide on md if col-md-4*/
+  .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;  /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Show 3rd slide on sm if col-sm-6*/
+  .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -50%;  /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+}
+@media (min-width: 576px) {
+  .carousel-item {
+      margin-right: 0;
+  }
+  /* show 2 items */
+  .carousel-inner .active + .carousel-item {
+      display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+      transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+  }
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+  /* farthest right hidden item must be also positioned for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
+}
+/* MD */
+@media (min-width: 768px) {
+  /* show 3rd of 3 item slide */
+  .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+  }
+  /* left or forward direction */
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+  /* right or prev direction */
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
+}
+/* LG */
+@media (min-width: 991px) {
+  /* show 4th item */
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+      display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+      transition: none;
+  }
+  /* Show 5th slide on lg if col-lg-3 */
+  .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -25%;  /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+  }
+  /* left or forward direction */
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+  }
+  /* right or prev direction //t - previous slide direction last item animation fix */
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+  }
+}
+
+.jumbotron {
+  background-color: rgb(167, 17, 17)!important;
+}
+
+
+/* New Carousel for our Partner Section */
+
+.col-md-3{
+  display: inline-block;
+  margin-left:-4px;
+  
+}
+
+.col-md-3 img{
+  width:100%;
+  height:auto;
+}
+
+body .carousel-indicators li{
+  background-color:red;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+  background-color:#d80e15;
+}
+
+body .no-padding{
+  padding-left: 0;
+  padding-right: 0;
+
+/* End of Our Partners section */
+
+
+
